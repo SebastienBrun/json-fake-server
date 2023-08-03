@@ -1,9 +1,96 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "share": {
+    "temporarily": {
+      "url": "Hello, world!"
+    }
+  },
+  "places": [
+    {
+      "id": "10",
+      "rightAccessType": "OWNER",
+      "placePictureUrl": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80",
+      "placeType": "COMPANY",
+      "rootPlaceName": "Building A",
+      "subPlaceName": "Floor 1",
+      "isFavourite": false,
+      "actions": [
+        {
+          "id": "1",
+          "actionType": "DOOR",
+          "name": "Main Entrance",
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "isLocked": true,
+          "isNearby": true
+        },
+        {
+          "id": "2",
+          "actionType": "LIGHT",
+          "name": "Office Lights",
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "isLocked": true,
+          "isNearby": false
+        },
+        {
+          "id": "3",
+          "actionType": "LIGHT",
+          "name": "Badroom Lights",
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "isLocked": true,
+          "isNearby": false
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "rightAccessType": "GUEST",
+      "placePictureUrl": "https://images.unsplash.com/photo-1583377519891-1eea1c2e3947?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80",
+      "placeType": "RESIDENCE",
+      "rootPlaceName": "Building B",
+      "subPlaceName": "Living Room",
+      "isFavourite": true,
+      "actions": [
+        {
+          "id": "3",
+          "actionType": "DOOR",
+          "name": "Main Door",
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "isLocked": false,
+          "isNearby": false
+        },
+        {
+          "id": "4",
+          "actionType": "GATE",
+          "name": "Garage Gate",
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "isLocked": true,
+          "isNearby": false
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "rightAccessType": "GUEST",
+      "placePictureUrl": "https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80",
+      "placeType": "RESIDENCE",
+      "rootPlaceName": "Building C",
+      "subPlaceName": "Living Room",
+      "isFavourite": true,
+      "actions": [
+        {
+          "id": "3",
+          "actionType": "DOOR",
+          "name": "Main Door",
+          "latitude": 51.5074,
+          "longitude": -0.1278,
+          "isLocked": true,
+          "isNearby": false
+        }
+      ]
+    }
+  ]
 }
